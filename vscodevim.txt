@@ -1,0 +1,79 @@
+{
+   "workbench.sideBar.location": "right",
+   "editor.lineNumbers": "relative",
+   "vim.leader": "<Space>",
+   "vim.insertModeKeyBindingsNonRecursive": [
+   {
+     "before": ["j", "k"],
+     "after": ["<ESC>"]
+   },
+   {
+     "before": ["j", "l"],
+     "after": ["<ESC>", "l", "a"]
+   }
+   ],
+
+   "vim.normalModeKeyBindingsNonRecursive": [
+   {
+     "before": ["leader", "w"],
+     "commands": [
+         "workbench.action.files.save"]
+   },
+   {
+     "before": ["O"],
+     "after": ["O", "<Esc>"]
+   },
+   {
+     "before": ["<Leader>", "j"],
+     "after": ["J"]
+   },
+   {
+     "before": ["J"],
+     "after": ["5", "j"]
+   },
+   {
+     "before": ["K"],
+     "after": ["5", "k"]
+   },
+   // inversions
+   {
+     "before": ["$"],
+     "after": ["0"]
+   },
+   {
+     "before": ["0"],
+     "after": ["_"]
+   },
+   {
+     "before": ["-"],
+     "after": ["g", "_"]
+   },
+   {
+     "before": ["_"],
+     "after": ["-"]
+   }
+   ],
+  
+   "vim.visualModeKeyBindingsNonRecursive": [
+   // inversions
+   {
+     "before": ["$"],
+     "after": ["0"]
+   },
+   {
+     "before": ["0"],
+     "after": ["_"]
+   },
+   {
+     "before": ["-"],
+     "after": ["g", "_"]
+   },
+   {
+     "before": ["_"],
+     "after": ["-"]
+   }
+
+   ],
+   "editor.minimap.enabled": false,
+   "workbench.editor.enablePreview": false,
+}

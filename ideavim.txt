@@ -1,0 +1,26 @@
+    IDEAVIMCONFIG
+
+"insert mode
+inoremap jk <Esc>
+inoremap jl <Esc>la
+
+"normal mode
+nnoremap O O<esc>
+" inversions
+nnoremap $  0
+
+nnoremap 0  _
+
+nnoremap -  g_
+
+nnoremap _  -
+
+"visual mode
+" inversions
+vnoremap $  0
+
+vnoremap 0  _
+
+vnoremap -  g_
+
+vnoremap _  -
