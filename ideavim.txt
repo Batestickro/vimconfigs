@@ -1,5 +1,8 @@
     IDEAVIMCONFIG
+set relativenumber
 
+
+"Mappings
 "insert mode
 inoremap jk <Esc>
 inoremap jl <Esc>la
