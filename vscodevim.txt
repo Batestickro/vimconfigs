@@ -59,7 +59,11 @@
     },
     {
       "before": ["_"],
-      "after": ["-"]
+      "after": ["$"]
+    },
+    {
+        "before": ["d-"],
+        "afer": ["dg_"]
     }
     ],
     
@@ -79,7 +83,7 @@
     },
     {
       "before": ["_"],
-      "after": ["-"]
+      "after": ["$"]
     }
     ],
    "editor.minimap.enabled": false,
