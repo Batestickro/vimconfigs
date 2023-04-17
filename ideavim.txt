@@ -13,7 +13,9 @@ inoremap jf <Esc>o
 
 "normal mode
 nnoremap O O<esc>
-" inversions
+nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
+ " inversions
 nnoremap $  0
 
 nnoremap 0  _
