@@ -84,6 +84,10 @@
     {
       "before": ["_"],
       "after": ["$"]
+    },
+    {
+      "before": ["r", "k"],
+      "after": ["\"", "_", "d"]
     }
     ],
    "editor.minimap.enabled": false,

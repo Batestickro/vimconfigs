@@ -35,6 +35,9 @@ vnoremap 0  _
 vnoremap -  g_
 
 vnoremap _  $
+ 
+"Delete selection keeping the register intact 
+vnoremap rk \"_d  
 
 Plug 'machakann/vim-highlightedyank'
 
