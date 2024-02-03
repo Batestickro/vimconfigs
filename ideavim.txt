@@ -1,4 +1,3 @@
-"Mines
 " Do incremental searching.
 set incsearch
 set hlsearch
