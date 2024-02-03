@@ -1,15 +1,14 @@
+"Mines
+" Do incremental searching.
 set incsearch
-set number
-set relativenumber
-let mapleader=" "
-set surround
+set hlsearch
 
+set surround
 
 "Mappings
 "insert mode
 inoremap jk <Esc>
 inoremap jl <Esc>la
-inoremap jf <Esc>o
 
 "normal mode
 nnoremap O O<esc>
@@ -35,9 +34,7 @@ vnoremap 0  _
 vnoremap -  g_
 
 vnoremap _  $
- 
-"Delete selection keeping the register intact 
-vnoremap rk \"_d  
 
-Plug 'machakann/vim-highlightedyank'
+"Delete selection keeping the register intact
+vnoremap rk \"_d
 
