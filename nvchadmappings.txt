@@ -1,0 +1,43 @@
+---@type MappingsTable
+local M = {}
+
+vim.wo.relativenumber = true
+
+M.general = {
+  n = {
+    [";"] = { ":", "enter command mode", opts = { nowait = true } },
+
+    ["<C-u>"] = {"<C-u>zz"};
+    ["<C-d>"] = {"<C-d>zz"};
+
+    ["$"] = {"0"};
+    ["0"] = {"_"};
+    ["-"] = {"g_"};
+    ["_"] = {"$"};
+
+    --  format with conform
+    ["<leader>fm"] = {
+      function()
+        require("conform").format()
+      end,
+      "formatting",
+    }
+
+  },
+  v = {
+    [">"] = { ">gv", "indent"},
+
+    ["$"] = {"0"};
+    ["0"] = {"_"};
+    ["-"] = {"g_"};
+    ["_"] = {"$"};
+  },
+
+  i = {
+    ["jl"] = {"<ESC>la"};
+  }
+}
+
+-- more keybinds!
+
+return M
